@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thinktecture.Relay.ForwardedMemcachedCustomCode", "Thinktecture.Relay.ForwardedMemcachedCustomCode\Thinktecture.Relay.ForwardedMemcachedCustomCode.csproj", "{8B228D0A-9949-402D-B60C-F97D8ACB1DE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thinktecture.Relay.ForwardedMemcachedCustomCode.Test", "Thinktecture.Relay.ForwardedMemcachedCustomCode.Test\Thinktecture.Relay.ForwardedMemcachedCustomCode.Test.csproj", "{7101731B-6087-4664-ADC3-58FFAAF21DA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B228D0A-9949-402D-B60C-F97D8ACB1DE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B228D0A-9949-402D-B60C-F97D8ACB1DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B228D0A-9949-402D-B60C-F97D8ACB1DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B228D0A-9949-402D-B60C-F97D8ACB1DE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7101731B-6087-4664-ADC3-58FFAAF21DA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7101731B-6087-4664-ADC3-58FFAAF21DA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7101731B-6087-4664-ADC3-58FFAAF21DA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7101731B-6087-4664-ADC3-58FFAAF21DA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E1834A6-24E4-4305-B777-6C2E875789DA}
+	EndGlobalSection
+EndGlobal
