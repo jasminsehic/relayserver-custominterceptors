@@ -1,6 +1,6 @@
 ## Thinktecture.RelayServer.ForwardedMemcachedCustomCode
 
-Custom interceptor for `Thinktecture.RelayServer` that provides [Memcached](https://memcached.org/) as a temporary shared store for its large request and response delivery (i.e. anything over 64kb) to overcome the SignalR limitations.
+Custom interceptor for [Thinktecture.RelayServer](https://github.com/thinktecture/relayserver) that provides [Memcached](https://memcached.org/) as a temporary shared store for its large request and response delivery (i.e. anything over 64kb) to overcome the SignalR limitations.
 
 Custom interceptor also makes `Thinktecture.RelayServer` [RFC 7239](https://tools.ietf.org/html/rfc7239) compliant and Forwarded HTTP Header aware. 
 The Forwarded HTTP Header handler automatically upgrades any legacy forwarded headers including X-Forwarded-For, X-Forwarded-Proto, X-Forwarded-Port, X-Forwarded-Host and X-Forwarded-Path.
@@ -15,3 +15,7 @@ Thinktecture.Relay.ForwardedMemcachedCustomCode.dll.config can be used to config
 ## Notes
 - Custom Code is compatible with `Thinktecture.RelayServer` v2.1.0 and higher.
 - Forwarded HTTP Header handles a non-standard parameter `Path` which is commonly used however not a standard. This is required to ensure target application can re-write its links and adjust the path.
+
+# Thanks
+- Big thanks to guys at [Thinktecture](https://www.thinktecture.com/) for their wonderful work on [RelayServer](https://www.thinktecture.com/relayserver) and accepting some of my changes.
+- Thanks to Attila Kiskó for creating the [C# Memcached Client](https://github.com/enyim/EnyimMemcached) - EnyimMemcached
