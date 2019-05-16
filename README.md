@@ -15,6 +15,7 @@ Thinktecture.Relay.ForwardedMemcachedCustomCode.dll.config can be used to config
 ## Notes
 - Custom Code is compatible with `Thinktecture.RelayServer` v2.1.0 and higher.
 - Forwarded HTTP Header handles a non-standard parameter `Path` which is commonly used however not a standard. This is required to ensure target application can re-write its links and adjust the path.
+- Ensure to merge the Enim.Caching runtime assembly bindings into the Thinktecture.Relay.Server app.config file for deployment
 
 # Thanks
 - Big thanks to guys at [Thinktecture](https://www.thinktecture.com/) for their wonderful work on [RelayServer](https://www.thinktecture.com/relayserver) and accepting some of my changes.
